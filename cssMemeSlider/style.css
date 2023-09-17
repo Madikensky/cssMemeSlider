@@ -54,11 +54,14 @@ a {
     margin: 0 60px;
 }
 
-.text {
+.texts a {
     flex: 1 0 100%;
     scroll-snap-align: start;
     color: white;
+    visibility: hidden;
 }
+
+
 
 @media (min-width: 500px) and (max-width: 1023px) {
     .bottom-items {
